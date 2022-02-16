@@ -1,0 +1,6 @@
+<h2>Movies ({{movies.length}})</h2>
+
+<ul>
+    <li *ngFor="let movie of movies">{{$any(movie).Title}}</li>
+    
+</ul>
